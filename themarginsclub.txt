@@ -1,8 +1,24 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>The Margins Club</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        background: #faf7f2;
+        color: #222;
+        padding: 2rem;
+        line-height: 1.6;
+      }
+      h1 {
+        margin-bottom: 0.5rem;
+      }
+      p {
+        margin: 0;
+      }
+    </style>
   </head>
   <body>
     <h1>The Margins Club</h1>
