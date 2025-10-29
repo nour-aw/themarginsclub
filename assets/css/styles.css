@@ -1,0 +1,140 @@
+:root {
+  color-scheme: light dark;
+  --background: #fcfcf9;
+  --text: #15110f;
+  --muted: #706f6c;
+  --accent: #1414ff;
+  --card: rgba(255, 255, 255, 0.75);
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--background);
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3.5rem 1.5rem;
+}
+
+.page {
+  width: min(640px, 100%);
+  display: grid;
+  gap: 2.5rem;
+}
+
+.intro {
+  text-align: center;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.intro__symbol {
+  font-size: 2.5rem;
+}
+
+.intro__eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin: 0;
+}
+
+.intro__summary {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 2.75rem);
+}
+
+h2 {
+  font-size: clamp(1.25rem, 4vw, 1.75rem);
+}
+
+.links {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.links__summary {
+  margin: 0;
+  color: var(--muted);
+}
+
+.links__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.link-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 1.1rem 1.25rem;
+  border-radius: 1rem;
+  background: var(--card);
+  border: 1px solid rgba(20, 20, 255, 0.18);
+  text-decoration: none;
+  color: inherit;
+  transition: transform 150ms ease, box-shadow 150ms ease, background 150ms ease;
+  backdrop-filter: blur(16px);
+}
+
+.link-card:hover,
+.link-card:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 40px rgba(20, 20, 50, 0.12);
+  background: rgba(255, 255, 255, 0.95);
+  outline: none;
+}
+
+.link-card__label {
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.link-card__description {
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.footer {
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.footer a {
+  color: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
