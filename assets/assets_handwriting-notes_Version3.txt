@@ -1,0 +1,6 @@
+Drop your handwriting font here as: assets/handwriting.woff2
+
+Notes:
+- The CSS expects a file at assets/handwriting.woff2 and will use it as the "Marginalia" font via @font-face.
+- Use a lightweight woff2 with an appropriate license for web embedding. Good choices: Allura, Great Vibes, or a custom script-style font you own.
+- To generate a woff2 from a TTF/OTF, use a tool like fonttools or an online converter, then place the file at assets/handwriting.woff2
