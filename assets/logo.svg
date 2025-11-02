@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 160" width="780" height="160" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">The Margins Club</title>
+  <desc id="logoDesc">The Margins Club wordmark. EST 2025 KW REGION</desc>
+  <rect width="100%" height="100%" fill="none"/>
+  <g transform="translate(20,40)" fill="#5A3728">
+    <text x="0" y="32" font-family="Playfair Display, Georgia, serif" font-weight="700" font-size="36" letter-spacing="1">
+      The Margins
+    </text>
+    <text x="0" y="88" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-weight="600" font-size="62" fill="#6D4A2F">
+      Club
+    </text>
+  </g>
+  <g transform="translate(520,90)">
+    <text x="0" y="0" font-family="Lora, Georgia, serif" font-size="12" fill="#6D7C57">EST 2025</text>
+    <text x="88" y="0" font-family="Lora, Georgia, serif" font-size="12" fill="#C35A42">KW REGION</text>
+  </g>
+</svg>
