@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>The Margins Club — Home</title>
+
+  <!-- Fonts: Playfair/Lora -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="page page-home">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" role="banner">
+    <nav class="topnav" role="navigation" aria-label="Primary">
+      <a href="index.html" class="logo" aria-label="The Margins Club home">
+        <img src="assets/logo.svg" alt="The Margins Club, wordmark with elegant script">
+        <span class="visually-hidden">EST 2025 KW REGION</span>
+      </a>
+      <ul class="navlist">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="log.html">Reading Log</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="paper">
+    <article class="col">
+      <header class="hero">
+        <h1 class="title">The Margins Club</h1>
+        <p class="lede">A small reading &amp; gatherings collective for people who like books with notes in the margins.</p>
+      </header>
+
+      <section class="intro">
+        <p>Welcome, we host conversational evenings, reading lists, and low-fi events where annotations and side remarks are celebrated. Pull up a chair, bring a margin, and stay a while.</p>
+      </section>
+
+      <nav class="annotation-chips mobile-only" aria-label="Quick links">
+        <a class="chip" href="about.html">About</a>
+        <a class="chip" href="events.html">Events</a>
+        <a class="chip" href="log.html">Reading Log</a>
+      </nav>
+
+      <section class="content">
+        <p>We keep our gatherings intimate and our notes honest. Below are quick links or find the full menu above.</p>
+      </section>
+    </article>
+
+    <aside class="annotations desktop-only" aria-hidden="false">
+      <a class="annotation left" href="about.html" tabindex="0">About, who we are</a>
+      <a class="annotation right" href="events.html" tabindex="0">Events, join us</a>
+      <a class="annotation left" href="log.html" tabindex="0">Reading Log, what we've read</a>
+    </aside>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="col">
+      <p>© <span id="year"></span> The Margins Club, small print, big margins.</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>
